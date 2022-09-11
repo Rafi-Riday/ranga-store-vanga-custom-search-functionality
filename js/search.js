@@ -45,6 +45,4 @@ document.getElementById("input-value").addEventListener("keyup", function (event
         searchAlgorithm();
     }
 })
-document.getElementById("search-btn").addEventListener("click", function () {
-    searchAlgorithm();
-});
+document.getElementById("search-btn").addEventListener("click", searchAlgorithm);
